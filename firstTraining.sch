@@ -20,7 +20,7 @@ U 1 1 5BD5E741
 P 3200 1500
 F 0 "T1" H 3200 1878 50  0000 C CNN
 F 1 "Transformer_1P_SS" H 3200 1787 50  0000 C CNN
-F 2 "" H 3200 1500 50  0001 C CNN
+F 2 "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm" H 3200 1500 50  0001 C CNN
 F 3 "~" H 3200 1500 50  0001 C CNN
 	1    3200 1500
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5BD5E940
 P 4300 1500
 F 0 "D1" H 4641 1546 50  0000 L CNN
 F 1 "D_Bridge_+-AA" H 4641 1455 50  0000 L CNN
-F 2 "" H 4300 1500 50  0001 C CNN
+F 2 "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm" H 4300 1500 50  0001 C CNN
 F 3 "~" H 4300 1500 50  0001 C CNN
 	1    4300 1500
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5BD5EB54
 P 5600 1650
 F 0 "C1" H 5715 1696 50  0000 L CNN
 F 1 "CP1" H 5715 1605 50  0000 L CNN
-F 2 "" H 5600 1650 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5600 1650 50  0001 C CNN
 F 3 "~" H 5600 1650 50  0001 C CNN
 	1    5600 1650
 	1    0    0    -1  
@@ -114,7 +114,7 @@ U 1 1 5BD667AC
 P 5600 2200
 F 0 "C2" H 5485 2154 50  0000 R CNN
 F 1 "CP1" H 5485 2245 50  0000 R CNN
-F 2 "" H 5600 2200 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5600 2200 50  0001 C CNN
 F 3 "~" H 5600 2200 50  0001 C CNN
 	1    5600 2200
 	-1   0    0    -1  
@@ -132,7 +132,7 @@ U 1 1 5BD706DF
 P 7200 2500
 F 0 "C4" H 7315 2546 50  0000 L CNN
 F 1 "C" H 7315 2455 50  0000 L CNN
-F 2 "" H 7238 2350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7238 2350 50  0001 C CNN
 F 3 "~" H 7200 2500 50  0001 C CNN
 	1    7200 2500
 	1    0    0    -1  
@@ -219,7 +219,7 @@ U 1 1 5BD5FBB0
 P 7200 1650
 F 0 "C3" H 7315 1696 50  0000 L CNN
 F 1 "C" H 7315 1605 50  0000 L CNN
-F 2 "" H 7238 1500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7238 1500 50  0001 C CNN
 F 3 "~" H 7200 1650 50  0001 C CNN
 	1    7200 1650
 	1    0    0    -1  
@@ -230,7 +230,7 @@ U 1 1 5BD5FA9A
 P 6500 1500
 F 0 "U1" H 6500 1742 50  0000 C CNN
 F 1 "L7805" H 6500 1651 50  0000 C CNN
-F 2 "" H 6525 1350 50  0001 L CIN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 6525 1350 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6500 1450 50  0001 C CNN
 	1    6500 1500
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 5BD704B9
 P 6500 2350
 F 0 "U2" H 6500 2592 50  0000 C CNN
 F 1 "L78L33_SO8" H 6500 2501 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6600 2550 50  0001 C CIN
+F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 6600 2550 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 6700 2350 50  0001 C CNN
 	1    6500 2350
 	1    0    0    -1  
