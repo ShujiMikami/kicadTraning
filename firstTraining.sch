@@ -104,28 +104,6 @@ Wire Wire Line
 	3600 1500 4050 1500
 Wire Wire Line
 	4050 1500 4050 2050
-$Comp
-L pspice:DIODE D1
-U 1 1 5BD8A7F3
-P 3800 2300
-F 0 "D1" H 3800 2565 50  0000 C CNN
-F 1 "DIODE" H 3800 2474 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3800 2300 50  0001 C CNN
-F 3 "~" H 3800 2300 50  0001 C CNN
-	1    3800 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L pspice:DIODE D2
-U 1 1 5BD8A88B
-P 4100 1300
-F 0 "D2" H 4100 1565 50  0000 C CNN
-F 1 "DIODE" H 4100 1474 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4100 1300 50  0001 C CNN
-F 3 "~" H 4100 1300 50  0001 C CNN
-	1    4100 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 1300 3600 1300
 Wire Wire Line
@@ -382,4 +360,74 @@ Connection ~ 7200 1500
 Wire Wire Line
 	7900 2350 7200 2350
 Connection ~ 7200 2350
+$Comp
+L Device:D D1
+U 1 1 5BD9C8F0
+P 3850 2300
+F 0 "D1" H 3850 2516 50  0000 C CNN
+F 1 "D" H 3850 2425 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3850 2300 50  0001 C CNN
+F 3 "~" H 3850 2300 50  0001 C CNN
+	1    3850 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BD9C97C
+P 4050 1300
+F 0 "D2" H 4050 1516 50  0000 C CNN
+F 1 "D" H 4050 1425 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4050 1300 50  0001 C CNN
+F 3 "~" H 4050 1300 50  0001 C CNN
+	1    4050 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1300 4200 1300
+Wire Wire Line
+	3700 2300 3600 2300
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5BD9E7B6
+P 7900 2950
+F 0 "H5" H 8000 3001 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8000 2910 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7900 2950 50  0001 C CNN
+F 3 "~" H 7900 2950 50  0001 C CNN
+	1    7900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5BD9E841
+P 7900 3450
+F 0 "H6" H 8000 3501 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8000 3410 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7900 3450 50  0001 C CNN
+F 3 "~" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5BD9E91C
+P 7900 3050
+F 0 "#PWR09" H 7900 2800 50  0001 C CNN
+F 1 "GND" H 7905 2877 50  0000 C CNN
+F 2 "" H 7900 3050 50  0001 C CNN
+F 3 "" H 7900 3050 50  0001 C CNN
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5BD9EB43
+P 7900 3550
+F 0 "#PWR010" H 7900 3300 50  0001 C CNN
+F 1 "GND" H 7905 3377 50  0000 C CNN
+F 2 "" H 7900 3550 50  0001 C CNN
+F 3 "" H 7900 3550 50  0001 C CNN
+	1    7900 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
