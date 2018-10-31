@@ -332,7 +332,7 @@ U 1 1 5BD99B15
 P 1700 1200
 F 0 "H1" H 1800 1251 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1800 1160 50  0000 L CNN
-F 2 "" H 1700 1200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 1700 1200 50  0001 C CNN
 F 3 "~" H 1700 1200 50  0001 C CNN
 	1    1700 1200
 	1    0    0    -1  
@@ -343,7 +343,7 @@ U 1 1 5BD99B7B
 P 1700 1600
 F 0 "H2" H 1800 1651 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1800 1560 50  0000 L CNN
-F 2 "" H 1700 1600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.5mm_Pad_Via" H 1700 1600 50  0001 C CNN
 F 3 "~" H 1700 1600 50  0001 C CNN
 	1    1700 1600
 	1    0    0    -1  
@@ -360,7 +360,7 @@ U 1 1 5BD9A34D
 P 7900 1400
 F 0 "H3" H 8000 1451 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8000 1360 50  0000 L CNN
-F 2 "" H 7900 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7900 1400 50  0001 C CNN
 F 3 "~" H 7900 1400 50  0001 C CNN
 	1    7900 1400
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 5BD9A3CB
 P 7900 2250
 F 0 "H4" H 8000 2301 50  0000 L CNN
 F 1 "MountingHole_Pad" H 8000 2210 50  0000 L CNN
-F 2 "" H 7900 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 7900 2250 50  0001 C CNN
 F 3 "~" H 7900 2250 50  0001 C CNN
 	1    7900 2250
 	1    0    0    -1  
