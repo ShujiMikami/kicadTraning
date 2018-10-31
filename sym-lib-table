@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name newLib)(type Legacy)(uri /Users/Shuji/Documents/workspace/kicadTraining/newLib.lib)(options "")(descr ""))
+)
