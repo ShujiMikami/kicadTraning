@@ -326,4 +326,60 @@ F 3 "" H 6450 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7200 1500 6800 1500
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5BD99B15
+P 1700 1200
+F 0 "H1" H 1800 1251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1800 1160 50  0000 L CNN
+F 2 "" H 1700 1200 50  0001 C CNN
+F 3 "~" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5BD99B7B
+P 1700 1600
+F 0 "H2" H 1800 1651 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1800 1560 50  0000 L CNN
+F 2 "" H 1700 1600 50  0001 C CNN
+F 3 "~" H 1700 1600 50  0001 C CNN
+	1    1700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1300 1700 1300
+Connection ~ 2300 1300
+Wire Wire Line
+	2300 1700 1700 1700
+Connection ~ 2300 1700
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5BD9A34D
+P 7900 1400
+F 0 "H3" H 8000 1451 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8000 1360 50  0000 L CNN
+F 2 "" H 7900 1400 50  0001 C CNN
+F 3 "~" H 7900 1400 50  0001 C CNN
+	1    7900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5BD9A3CB
+P 7900 2250
+F 0 "H4" H 8000 2301 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8000 2210 50  0000 L CNN
+F 2 "" H 7900 2250 50  0001 C CNN
+F 3 "~" H 7900 2250 50  0001 C CNN
+	1    7900 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1500 7200 1500
+Connection ~ 7200 1500
+Wire Wire Line
+	7900 2350 7200 2350
+Connection ~ 7200 2350
 $EndSCHEMATC
