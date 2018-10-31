@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 44)
     (zones 0)
     (modules 17)
@@ -1401,6 +1401,7 @@
     )
   )
 
+  (target plus (at 63.5 113.03) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_line (start 63.5 113.03) (end 63.5 62.23) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 63.5 62.23) (end 210.82 62.23) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 210.82 113.03) (end 210.82 62.23) (layer Edge.Cuts) (width 0.15))
