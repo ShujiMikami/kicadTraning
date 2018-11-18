@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 31)
     (zones 0)
     (modules 17)
@@ -1333,6 +1333,7 @@
       (net 2 GND))
   )
 
+  (target plus (at 91.44 124.46) (size 5) (width 0.1) (layer Edge.Cuts))
   (gr_line (start 208.28 74.93) (end 91.44 74.93) (layer F.SilkS) (width 0.2))
   (gr_line (start 208.28 124.46) (end 208.28 74.93) (layer F.SilkS) (width 0.2))
   (gr_line (start 91.44 124.46) (end 208.28 124.46) (layer F.SilkS) (width 0.2))
