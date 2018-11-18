@@ -40,7 +40,7 @@
     (zone_45_only no)
     (trace_min 0.2)
     (segment_width 0.2)
-    (edge_width 0.1)
+    (edge_width 0.2)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.8)
@@ -1334,10 +1334,10 @@
   )
 
   (target plus (at 91.44 124.46) (size 5) (width 0.1) (layer Edge.Cuts))
-  (gr_line (start 208.28 74.93) (end 91.44 74.93) (layer F.SilkS) (width 0.2))
-  (gr_line (start 208.28 124.46) (end 208.28 74.93) (layer F.SilkS) (width 0.2))
-  (gr_line (start 91.44 124.46) (end 208.28 124.46) (layer F.SilkS) (width 0.2))
-  (gr_line (start 91.44 74.93) (end 91.44 124.46) (layer F.SilkS) (width 0.2))
+  (gr_line (start 208.28 74.93) (end 91.44 74.93) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 208.28 124.46) (end 208.28 74.93) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 91.44 124.46) (end 208.28 124.46) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 91.44 74.93) (end 91.44 124.46) (layer Edge.Cuts) (width 0.2))
 
   (segment (start 151.13 93.98) (end 151.13 107.95) (width 1) (layer F.Cu) (net 1))
   (segment (start 151.13 93.98) (end 161.29 93.98) (width 1) (layer F.Cu) (net 1))
